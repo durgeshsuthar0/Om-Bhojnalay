@@ -90,7 +90,7 @@ const Menu = () => {
       ],
     },
     // Seasonal Veg section
-    "Seasonal Vegetables": {
+    "SEASONAL VEGETABLES": {
       "Seasonal Veg": [
         { name: "Bhindi Masala", hindiName: "भिंडी मसाला", price: "Rs. 160" },
         { name: "Bhindi Fry", hindiName: "भिंडी फ्राई", price: "Rs. 150" },
@@ -108,7 +108,7 @@ const Menu = () => {
         { name: "Mix Veg", hindiName: "मिक्स वेज", price: "Rs. 180" },
       ],
     },
-    Roti: {
+    ROTI: {
       Roti: [
         { name: "Chapati Roti", hindiName: "चपाती रोटी", price: "Rs. 15" },
         {
@@ -127,7 +127,7 @@ const Menu = () => {
         { name: "Ghee 20gm", hindiName: "घी 20 ग्राम", price: "Rs. 20" },
       ],
     },
-    Rice: {
+    RICE: {
       Rice: [
         { name: "Jeera Rice", hindiName: "जीरा चावल", price: "Rs. 100" },
         { name: "Plain Rice", hindiName: "सादा चावल", price: "Rs. 90" },
@@ -138,7 +138,7 @@ const Menu = () => {
         { name: "Masala Khichdi", hindiName: "मसाला खिचड़ी", price: "Rs. 120" },
       ],
     },
-    "Hot & Cold": {
+    "HOT & COLD": {
       veg: [
         { name: "Lassi", hindiName: "लस्सी", price: "Rs. 50" },
         { name: "Tea", hindiName: "चाय", price: "Rs. 20" },
@@ -146,7 +146,7 @@ const Menu = () => {
         { name: "Milk", hindiName: "दूध", price: "Rs. 30" },
       ],
     },
-    "Om Special": {
+    "OM SPECIAL": {
       Churma: [
         {
           name: "Om Special Churma",
