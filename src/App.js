@@ -10,19 +10,19 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading process (like fetching data, etc.)
-    const timer = setTimeout(() => {
-      setIsLoading(false); // After 2 seconds, set loading to false
-    }, 2000); // Hide loader after 2 seconds
 
-    return () => clearTimeout(timer); // Clean up the timer on component unmount
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); 
+
+    return () => clearTimeout(timer); 
   }, []);
 
   return (
     <div>
-      {isLoading && <Loader />} {/* Show loader if loading is true */}
+      {isLoading && <Loader />}
 
-      {/* The rest of the components will show only after loading is false */}
+    
       {!isLoading && (
         <>
           <NavbarComponent />

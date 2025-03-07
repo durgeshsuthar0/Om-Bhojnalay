@@ -1,22 +1,23 @@
-// src/components/Footer.js
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import logo from '../assets/img/logo.JPG';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import logo from "../assets/img/logo.JPG";
 
 const Footer = () => {
   return (
     <footer className="footer bg-black text-white pt-4 pb-3 mt-5">
       <Container>
-        <div className='d-flex justify-content-center mb-2'>
-        <img src={logo} alt="Hotel Logo" width="120" />
+        <div className="d-flex justify-content-center mb-2">
+          <img src={logo} alt="Hotel Logo" width="120" />
         </div>
         <Row className="text-center text-md-left">
           {/* Address Section */}
           <Col md={4} xs={12} className="mb-3">
             <h5>Hotel Address</h5>
             <p>
-              G-15, Ricco Indstrial Area<br />
-              Sarupganj, Dist-Sirohi<br />
+              G-15, Ricco Indstrial Area
+              <br />
+              Sarupganj, Dist-Sirohi
+              <br />
               (Raj.) 307023
             </p>
           </Col>
@@ -25,7 +26,8 @@ const Footer = () => {
           <Col md={4} xs={12} className="mb-3">
             <h5>Contact Us</h5>
             <p>
-              Phone: 9828052445<br />
+              Phone: 9828052445
+              <br />
               Phone: 9828687071
             </p>
           </Col>

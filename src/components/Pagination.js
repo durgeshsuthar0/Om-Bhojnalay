@@ -1,6 +1,5 @@
-// src/components/Pagination.js
-import React from 'react';
-import { Pagination } from 'react-bootstrap';
+import React from "react";
+import { Pagination } from "react-bootstrap";
 
 const Paginate = ({ currentPage, totalPages, onPageChange }) => {
   const pages = [];
