@@ -108,6 +108,20 @@ const Menu = () => {
         { name: "Mix Veg", hindiName: "मिक्स वेज", price: "Rs. 180" },
       ],
     },
+    "PANEER SABJI": {
+      "Paneer Sabji": [
+        { name: "Shahi Panner", hindiName: "शाही पनीर", price: "Rs. 220" },
+        { name: "Paneer Butter Masala", hindiName: " पनीर बटर मसाला", price: "Rs. 220" },
+        { name: "Mutter Paneer", hindiName: "मटर पनीर", price: "Rs. 200" },
+        { name: "Paneer Bhurji", hindiName: "पनीर भुर्जी", price: "Rs. 220" },
+        { name: "Paneer Tikka Masala", hindiName: "पनीर टिक्का मसाला", price: "Rs. 200" },
+        { name: "Paneer Kadai", hindiName: "पनीर कढ़ाई", price: "Rs. 220" },
+        { name: "Kaju Paneer", hindiName: "काजू पनीर", price: "Rs. 250" },
+        { name: "Malai Kopta", hindiName: "मलाई कोफ्ता", price: "Rs. 200" },
+        { name: "Malai Mutter", hindiName: "मलाई मटर", price: "Rs. 200" },
+        { name: "Kaju Kari", hindiName: "काजू करी", price: "Rs. 250" },
+      ],
+    },
     ROTI: {
       Roti: [
         { name: "Chapati Roti", hindiName: "चपाती रोटी", price: "Rs. 15" },
